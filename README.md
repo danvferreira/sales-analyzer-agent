@@ -14,7 +14,7 @@ Uma aplicação de IA interativa que responde perguntas em linguagem natural sob
 - **python-dotenv** para carregar variáveis de ambiente
 - **Streamlit** para interface web
 - **Pytest** para testes automatizados
-- **Docker** (opcional) para ambiente isolado
+- **Docker** (opcional) para ambiente controlado
 
 ---
 
@@ -121,7 +121,9 @@ streamlit run app/streamlit_app.py --server.port=8501 --server.address=0.0.0.0
 
 Depois, execute com:
 
-```bash
+```
+docker build -t sales-agent .
+
 docker run --env-file .env -p 8501:8501 sales-agent
 ```
 
@@ -176,7 +178,7 @@ def test_basic_question():
 Execute os testes com:
 
 ```bash
-set PYTHONPATH=. pytest -v tests/
+set PYTHONPATH=. && pytest -v tests/
 ```
 
 ---
