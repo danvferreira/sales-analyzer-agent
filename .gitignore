@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.log
+*.zip
+*.pdf
+.env
+.vscode/
+__docker_build/
