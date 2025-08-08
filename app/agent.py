@@ -1,3 +1,9 @@
+"""
+app.agent
+Cria e configura o agente LangChain que interage com o DataFrame de vendas.
+Suporta múltiplos backends de LLM (ex.: Gemini, GPT).
+"""
+
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_openai import ChatOpenAI

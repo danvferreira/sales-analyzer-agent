@@ -1,3 +1,8 @@
+"""
+app.config
+Responsável por carregar variáveis sensíveis do .env e expor configurações centrais.
+"""
+
 from dotenv import load_dotenv
 import os
 

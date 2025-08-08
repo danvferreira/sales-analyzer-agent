@@ -1,3 +1,8 @@
+"""
+app.loader
+Funções relacionadas ao carregamento e pré-processamento do dataset sales.csv.
+"""
+
 import pandas as pd
 
 def load_sales_data(filepath = './dataset/sales.csv'):

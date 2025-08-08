@@ -1,3 +1,7 @@
+"""
+Testes de leitura e validação mínima do CSV.
+"""
+
 from app.loader import load_sales_data
 import pandas as pd
 

@@ -1,3 +1,10 @@
+"""
+app.streamlit_app
+Interface Web com Streamlit. 
+Comportamento semelhante ao CLI, mas com estado de sessão
+para evitar recriar o agente em cada request.
+"""
+
 import streamlit as st
 from app.agent import create_agent
 

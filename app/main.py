@@ -1,3 +1,8 @@
+"""
+app.main
+Interface de linha de comando para interação com o agente.
+"""
+
 from app.agent import create_agent
 
 def main():

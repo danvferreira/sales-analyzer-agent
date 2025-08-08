@@ -1,3 +1,8 @@
+"""
+Testes para o agente. 
+Resposta a uma pergunta básica e Robustez de perguntas.
+"""
+
 import pytest
 from app.agent import create_agent
 
